@@ -1,0 +1,12 @@
+[wsl2]
+# Limits VM memory to use no more than 16 GB, this can be set as whole numbers using GB or MB
+memory=24GB
+
+# Sets the VM to use two virtual processors
+processors=8
+
+# Sets amount of swap storage space to 8GB, default is 25% of available RAM
+swap=8GB
+
+# Sets swapfile path location, default is %USERPROFILE%\AppData\Local\Temp\swap.vhdx
+swapfile=C:\\Users\\vikas\\wsl-swap.vhdx
